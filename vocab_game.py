@@ -69,8 +69,6 @@ def show_result_dialog(ans1, ans2):
         
 
 
-    # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มตรวจข้อ 3, 4 ตรงนี้
-
     st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
     if score == 4:
@@ -110,7 +108,7 @@ ans3 = st.text_input(
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: This is a `Co _ _ nut`. 🥥  ",
+    "ข้อ 4: This is a `co _ _ nut`. 🥥  ",
     value=st.session_state.ans4_val,
 )
 
@@ -119,8 +117,6 @@ st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
 st.session_state.ans3_val = ans3
 st.session_state.ans4_val = ans4
-
-# ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
 
 
 # 4. ปุ่มส่งคำตอบ
